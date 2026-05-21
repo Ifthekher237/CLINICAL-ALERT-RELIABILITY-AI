@@ -1,0 +1,21 @@
+{
+  "total_drift_checks": 92,
+  "average_drift_score": 1.0504,
+  "maximum_drift_score": 7.5414,
+  "severe_drift_count": 56,
+  "monitored_feature_count": 14,
+  "drift_type_distribution": {
+    "data_drift": 32,
+    "alert_distribution_drift": 24,
+    "response_behavior_drift": 24,
+    "reliability_drift": 12
+  },
+  "drift_status_distribution": {
+    "severe_shift": 56,
+    "stable": 15,
+    "moderate_shift": 12,
+    "mild_shift": 9
+  },
+  "checks_requiring_review": 64,
+  "simulation_note": "Simulated drift detection only; not clinical validation."
+}

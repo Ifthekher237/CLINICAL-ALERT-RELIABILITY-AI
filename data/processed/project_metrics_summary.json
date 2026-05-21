@@ -1,0 +1,74 @@
+{
+  "dataset": {
+    "total_patients": 5,
+    "total_vital_rows": 1445,
+    "deterioration_event_rate": 0.0104,
+    "missing_data_rate": 0.0277,
+    "sensor_noise_rate": 0.0208
+  },
+  "alerts": {
+    "total_raw_alerts": 477,
+    "total_audited_alerts": 477,
+    "total_fatigue_reduced_alerts": 477,
+    "active_alerts_after_reduction": 395,
+    "critical_alert_count": 300,
+    "alert_reduction_rate": 0.1719,
+    "critical_preservation_rate": 1.0
+  },
+  "audit_fatigue": {
+    "average_actionability_score": 0.797,
+    "average_fatigue_risk_score": 0.5939,
+    "average_false_positive_likelihood": 0.1032,
+    "grouped_alert_count": 63,
+    "delayed_alert_count": 2,
+    "downgraded_alert_count": 16
+  },
+  "workflow": {
+    "total_responses": 477,
+    "ignored_alert_rate": 0.0482,
+    "delayed_alert_rate": 0.0629,
+    "escalation_rate": 0.5577,
+    "average_response_time_minutes": 23.7325,
+    "average_clinician_burden_score": 0.6264,
+    "average_perceived_alert_usefulness": 0.7176
+  },
+  "reliability": {
+    "average_reliability_score": 0.8967,
+    "stable_window_count": 11,
+    "watch_window_count": 0,
+    "degraded_window_count": 0,
+    "unsafe_window_count": 0,
+    "windows_requiring_review": 6
+  },
+  "drift": {
+    "average_drift_score": 1.0504,
+    "severe_drift_count": 56,
+    "moderate_drift_count": 12,
+    "drift_checks_requiring_review": 64,
+    "most_common_drift_type": "data_drift"
+  },
+  "model_update_rl": {
+    "current_threshold": 0.65,
+    "proposed_threshold": 0.65,
+    "threshold_change": 0.0,
+    "deployment_recommendation": "retraining_review_recommended",
+    "rl_recommended_action": "keep_threshold",
+    "rl_recommended_threshold": 0.65,
+    "rl_safety_violation_count": 3,
+    "human_review_required": true
+  },
+  "llm_action": {
+    "total_explanations": 50,
+    "fallback_explanation_count": 50,
+    "total_action_recommendations": 50,
+    "immediate_action_count": 29,
+    "urgent_action_count": 0,
+    "rag_coverage_rate": 1.0
+  },
+  "database_demo_readiness": {
+    "database_available": true,
+    "database_table_count": 11,
+    "database_total_rows_loaded": 3000
+  },
+  "simulation_only_note": "Metrics are calculated from simulated project artifacts only; they are not clinical validation and must not be interpreted as real-world medical safety."
+}

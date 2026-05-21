@@ -1,0 +1,27 @@
+severity_levels:
+  - low
+  - medium
+  - high
+  - critical
+
+default_thresholds:
+  low: 0.25
+  medium: 0.50
+  high: 0.75
+  critical: 0.90
+
+safety_constraints:
+  critical_alerts_can_be_suppressed: false
+  uncertain_high_risk_requires_review: true
+  unstable_sensor_data_requires_flag: true
+
+review_windows_minutes:
+  low: 60
+  medium: 30
+  high: 10
+  critical: 5
+
+notes:
+  - "These values are placeholders for engineering experiments only."
+  - "Thresholds are not clinically validated and must not be used for real patient care."
+

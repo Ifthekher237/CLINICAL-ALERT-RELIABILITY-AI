@@ -1,0 +1,31 @@
+project:
+  name: "Self-Monitoring AI System for Clinical Alert Reliability"
+  mode: "research_prototype"
+  python_version: "3.11+"
+
+safety:
+  clinical_use: false
+  validated_medical_device: false
+  require_human_review_for_high_risk: true
+  suppress_critical_alerts: false
+
+paths:
+  raw_data: "data/raw"
+  simulated_data: "data/simulated"
+  processed_data: "data/processed"
+  reports: "reports"
+  knowledge_base: "knowledge_base"
+
+database:
+  engine: "sqlite"
+  url: "sqlite:///clinical_alert_reliability.db"
+
+logging:
+  level: "INFO"
+  structured: true
+
+llm:
+  enabled: false
+  provider: "local_placeholder"
+  safety_mode: true
+

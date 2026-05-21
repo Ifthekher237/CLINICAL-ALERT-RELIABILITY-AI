@@ -1,0 +1,13 @@
+{
+  "total_evaluated_alerts": 477,
+  "improved_count": 3,
+  "unchanged_count": 0,
+  "worsened_count": 12,
+  "unknown_count": 462,
+  "useful_alert_rate": 0.8428,
+  "useless_alert_rate": 0.1572,
+  "action_to_outcome_success_rate": 0.0025,
+  "average_outcome_effectiveness_score": 0.6624,
+  "average_delayed_response_impact_score": 0.1194,
+  "simulation_only_note": "Simulation-only outcome association; not evidence of clinical effectiveness, patient benefit, or medical-device safety."
+}

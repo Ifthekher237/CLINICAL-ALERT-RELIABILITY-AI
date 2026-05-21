@@ -1,0 +1,26 @@
+{
+  "registry_name": "clinical_alert_reliability_simulated_registry",
+  "registry_version": "1.0",
+  "last_updated": "2026-01-02 11:00:00",
+  "simulation_only": true,
+  "deployment_status": "not_deployed",
+  "versions": [
+    {
+      "previous_model_version": "risk_alert_model_v1.0.0",
+      "proposed_model_version": "risk_alert_model_v1.0.1-simulated",
+      "created_at": "2026-01-02 11:00:00",
+      "status": "simulation_only_not_deployed",
+      "deployment_recommendation": "retraining_review_recommended",
+      "human_review_required": true,
+      "current_risk_threshold": 0.65,
+      "proposed_risk_threshold": 0.65,
+      "threshold_change": 0.0,
+      "feedback_window_start": "2026-01-01 11:00:00",
+      "feedback_window_end": "2026-01-02 11:00:00",
+      "average_drift_score": 1.0504,
+      "severe_drift_count": 56,
+      "simulation_note": "Version record only; no model artifact was replaced or deployed."
+    }
+  ],
+  "note": "This registry stores simulated metadata only and does not replace model files."
+}

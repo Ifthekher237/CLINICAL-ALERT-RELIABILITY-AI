@@ -1,0 +1,31 @@
+{
+  "recommended_action": "keep_threshold",
+  "current_threshold": 0.65,
+  "recommended_threshold": 0.65,
+  "average_reward": 0.16233,
+  "best_reward": 0.216,
+  "safety_violation_count": 3,
+  "human_review_required": true,
+  "reason": "Severe drift or Step 14 human-review requirement is present, so the safest simulation policy is to keep the threshold and require human review.",
+  "action_reward_summary": {
+    "keep_threshold": {
+      "episodes": 72,
+      "average_reward": 0.216,
+      "best_reward": 0.216,
+      "safety_violations": 0
+    },
+    "lower_threshold": {
+      "episodes": 1,
+      "average_reward": -1.1489,
+      "best_reward": -1.1489,
+      "safety_violations": 1
+    },
+    "raise_threshold": {
+      "episodes": 2,
+      "average_reward": -1.11427,
+      "best_reward": -1.11427,
+      "safety_violations": 2
+    }
+  },
+  "simulation_only_note": "Simulation-only recommendation for review; it must not update deployed thresholds or be used for medical decision-making."
+}

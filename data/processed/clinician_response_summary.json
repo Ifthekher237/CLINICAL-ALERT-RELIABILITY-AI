@@ -1,0 +1,59 @@
+{
+  "total_responses": 477,
+  "ignored_alert_rate": 0.0482,
+  "delayed_alert_rate": 0.0629,
+  "escalation_rate": 0.5577,
+  "average_response_time_minutes": 23.7325,
+  "response_distribution": {
+    "escalated": 266,
+    "accepted": 85,
+    "marked_useful": 51,
+    "delayed": 30,
+    "ignored": 23,
+    "marked_false": 22
+  },
+  "workflow_stage_distribution": {
+    "escalated_review": 266,
+    "clinician_review": 106,
+    "closed": 45,
+    "nurse_review": 30,
+    "triage_queue": 30
+  },
+  "average_clinician_burden_score": 0.6264,
+  "average_perceived_alert_usefulness": 0.7176,
+  "response_by_severity": [
+    {
+      "severity": "critical",
+      "count": 300,
+      "ignored_rate": 0.0,
+      "delayed_rate": 0.0,
+      "escalation_rate": 0.6933,
+      "average_response_time_minutes": 3.0515
+    },
+    {
+      "severity": "high",
+      "count": 70,
+      "ignored_rate": 0.0,
+      "delayed_rate": 0.0,
+      "escalation_rate": 0.8,
+      "average_response_time_minutes": 7.7054
+    },
+    {
+      "severity": "low",
+      "count": 45,
+      "ignored_rate": 0.2444,
+      "delayed_rate": 0.1556,
+      "escalation_rate": 0.0222,
+      "average_response_time_minutes": 126.7398
+    },
+    {
+      "severity": "medium",
+      "count": 62,
+      "ignored_rate": 0.1935,
+      "delayed_rate": 0.371,
+      "escalation_rate": 0.0161,
+      "average_response_time_minutes": 67.1337
+    }
+  ],
+  "simulation_note": "Simulated workflow metrics only; not real clinical operations."
+}

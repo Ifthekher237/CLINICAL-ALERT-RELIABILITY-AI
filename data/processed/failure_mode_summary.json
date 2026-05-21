@@ -1,0 +1,30 @@
+{
+  "total_failure_events": 152,
+  "failure_mode_distribution": {
+    "repeated_low_value_alerts": 30,
+    "delayed_response_failure": 30,
+    "data_distribution_shift": 30,
+    "noisy_sensor_spike": 25,
+    "missing_patient_data": 25,
+    "model_confidence_drop": 8,
+    "alert_overload": 4
+  },
+  "severity_distribution": {
+    "critical": 61,
+    "medium": 46,
+    "high": 45
+  },
+  "safety_status_distribution": {
+    "unsafe_review_required": 61,
+    "warning": 46,
+    "degraded": 45
+  },
+  "average_alert_volume_impact": 0.3717,
+  "average_clinician_burden_impact": 0.5,
+  "average_reliability_score_impact": 0.4372,
+  "average_drift_risk_impact": 0.3553,
+  "average_outcome_risk_impact": 0.4315,
+  "unsafe_review_required_count": 61,
+  "human_review_required_rate": 0.6974,
+  "simulation_only_note": "Simulation-only failure-mode test; not clinical validation, not treatment guidance, and not medical-device evidence."
+}

@@ -1,0 +1,55 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment and local-only settings
+.env
+.env.*
+*.local
+
+# macOS and local IDE files
+.DS_Store
+.idea/
+.vscode/
+.qodo/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs, temporary files, and scratch artifacts
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+tmp/
+temp/
+artifacts/
+mlruns/
+
+# Large or ad hoc data exports that are not part of the curated demo outputs
+*.parquet
+*.feather
+*.arrow
+*.jsonl
+
+# Keep curated portfolio artifacts visible:
+# - data/processed/
+# - data/simulated/
+# - reports/
+# - models/
+# - api/
+# - dashboard/

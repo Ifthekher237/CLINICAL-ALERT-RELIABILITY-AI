@@ -1,0 +1,30 @@
+{
+  "total_scenarios": 7,
+  "scenario_distribution": {
+    "baseline_monitoring": 1,
+    "deterioration_monitoring": 1,
+    "critical_event": 1,
+    "sensor_quality": 1,
+    "alert_fatigue": 1,
+    "data_quality": 1,
+    "workload_stress": 1
+  },
+  "overall_status_distribution": {
+    "degraded": 6,
+    "stable": 1
+  },
+  "safety_check_distribution": {
+    "warning": 6,
+    "passed": 1
+  },
+  "average_reliability_score": 0.8575,
+  "average_ignored_alert_rate": 0.0437,
+  "average_delayed_alert_rate": 0.0557,
+  "average_outcome_effectiveness_score": 0.6195,
+  "failure_mode_trigger_rate": 0.8571,
+  "human_review_required_rate": 0.7143,
+  "passed_safety_checks": 1,
+  "warning_safety_checks": 6,
+  "failed_safety_checks": 0,
+  "simulation_only_note": "Simulation-only scenario test; not clinical validation, not deployment readiness evidence, and not medical-device safety evidence."
+}

@@ -1,0 +1,16 @@
+{
+  "total_monitoring_windows": 11,
+  "average_reliability_score": 0.8967,
+  "minimum_reliability_score": 0.7876,
+  "reliability_status_distribution": {
+    "stable": 11
+  },
+  "review_recommendation_distribution": {
+    "no_action_needed": 5,
+    "review_workflow_burden": 5,
+    "review_thresholds": 1
+  },
+  "unsafe_windows": 0,
+  "windows_requiring_review": 6,
+  "simulation_note": "Simulated reliability metrics only; not clinical validation."
+}

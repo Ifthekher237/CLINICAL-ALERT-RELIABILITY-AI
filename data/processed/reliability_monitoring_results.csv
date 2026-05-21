@@ -1,0 +1,12 @@
+monitoring_window_id,window_start,window_end,total_alerts,active_alerts,critical_alerts,ignored_alert_rate,delayed_alert_rate,average_response_time_minutes,false_alert_rate,alert_volume_score,response_quality_score,safety_preservation_score,reliability_score,reliability_status,reliability_warning,review_recommendation
+WINDOW-001,2026-01-01 11:15:00,2026-01-01 13:15:00,2,2,1,0.0,0.0,18.305,0.0,1.0,0.9593,1.0,0.9878,stable,Stable: no reliability warning for this simulated window.,no_action_needed
+WINDOW-002,2026-01-01 13:15:00,2026-01-01 15:15:00,3,3,3,0.0,0.0,1.8467,0.0,1.0,0.9959,1.0,0.9988,stable,Stable: no reliability warning for this simulated window.,no_action_needed
+WINDOW-003,2026-01-01 15:15:00,2026-01-01 17:15:00,4,4,1,0.25,0.0,38.5725,0.25,1.0,0.8018,1.0,0.9155,stable,Stable: no reliability warning for this simulated window.,review_thresholds
+WINDOW-004,2026-01-01 17:15:00,2026-01-01 19:15:00,42,24,17,0.1429,0.1429,33.9874,0.0952,0.762,0.8102,1.0,0.8859,stable,Stable: no reliability warning for this simulated window.,no_action_needed
+WINDOW-005,2026-01-01 19:15:00,2026-01-01 21:15:00,43,31,24,0.093,0.1163,40.5867,0.093,0.748,0.8273,1.0,0.8885,stable,Stable: no reliability warning for this simulated window.,no_action_needed
+WINDOW-006,2026-01-01 21:15:00,2026-01-01 23:15:00,61,28,24,0.1639,0.1475,83.9418,0.1803,0.496,0.6881,1.0,0.7876,stable,Stable: no reliability warning for this simulated window.,review_workflow_burden
+WINDOW-007,2026-01-01 23:15:00,2026-01-02 01:15:00,72,54,54,0.0139,0.1389,22.7443,0.0278,0.342,0.8946,1.0,0.834,stable,Stable: no reliability warning for this simulated window.,review_workflow_burden
+WINDOW-008,2026-01-02 01:15:00,2026-01-02 03:15:00,74,73,71,0.0135,0.0,7.5364,0.0,0.314,0.9772,1.0,0.856,stable,Stable: no reliability warning for this simulated window.,review_workflow_burden
+WINDOW-009,2026-01-02 03:15:00,2026-01-02 05:15:00,72,72,72,0.0,0.0,4.0924,0.0,0.342,0.9909,1.0,0.8657,stable,Stable: no reliability warning for this simulated window.,review_workflow_burden
+WINDOW-010,2026-01-02 05:15:00,2026-01-02 07:15:00,73,73,73,0.0,0.0,3.1585,0.0,0.328,0.993,1.0,0.8635,stable,Stable: no reliability warning for this simulated window.,review_workflow_burden
+WINDOW-011,2026-01-02 07:15:00,2026-01-02 09:15:00,31,31,30,0.0,0.0,3.5587,0.0,0.916,0.9921,1.0,0.9808,stable,Stable: no reliability warning for this simulated window.,no_action_needed
