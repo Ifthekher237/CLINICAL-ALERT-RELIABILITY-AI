@@ -45,6 +45,7 @@ mlruns/
 *.feather
 *.arrow
 *.jsonl
+*.db
 
 # Keep curated portfolio artifacts visible:
 # - data/processed/

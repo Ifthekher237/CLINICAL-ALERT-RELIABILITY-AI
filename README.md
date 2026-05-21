@@ -218,7 +218,6 @@ Important generated artifacts include:
 
 ## Dashboard Preview
 
-Screenshots can be added here later.
 
 The current dashboard includes sections for overview metrics, patient vitals, alerts, auditing, fatigue reduction, workflow simulation, reliability monitoring, drift detection, explanations, action recommendations, and system limitations.
 
